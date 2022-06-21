@@ -1,0 +1,111 @@
+/* pages/craft/index.wxss */
+.container {
+  width: 100vw;
+  padding: 0;
+  font-size: 0;
+}
+
+.craftIMG {
+  width: 750rpx;
+  display: block;
+  z-index: 2;
+  float: left;
+}
+
+.craft_01 {
+  height: 1579rpx;
+}
+
+.craft_02 {
+  height: 1586rpx;
+}
+
+.craft_02_video1 {
+  position: absolute;
+  width: 663rpx;
+  height: 319rpx;
+  top: 2037rpx;
+  left: 43.5rpx;
+  z-index: 3;
+}
+
+.craft_02_video2 {
+  position: absolute;
+  width: 663rpx;
+  height: 319rpx;
+  top: 2705rpx;
+  left: 43.5rpx;
+  z-index: 3;
+}
+
+.craft_03 {
+  height: 1583rpx;
+}
+
+.craft_03_gif {
+  position: absolute;
+  width: 750rpx;
+  height: 950rpx;
+  top: 3850rpx;
+  left: 0rpx;
+  z-index: 1;
+}
+
+.craft_04 {
+  height: 1588rpx;
+}
+.p_04_onT{
+  position: absolute;
+  left: 58rpx;
+  top: 5156rpx;
+  width: 132rpx;
+  height: 463rpx;
+  z-index: 4;
+}
+@keyframes craft_04_time{
+  0%{
+    top: 5350rpx;
+    transform: rotate(0deg);
+  }
+  100%{
+    top: 5330rpx;
+    transform: rotate(90deg);
+  }
+}
+.craft_04_time{
+  position: absolute;
+  left: -295rpx;
+  top: 5350rpx;
+  width: 710rpx;
+  height: 546rpx;
+  z-index: 3;
+}
+.timeAnimateOn{
+  animation: craft_04_time 10s forwards;
+}
+.p_04_time{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 355rpx;
+  height: 273rpx;
+}
+
+.craft_05 {
+  height: 1384rpx;
+}
+.craft_05_gif {
+  position: absolute;
+    width: 750rpx;
+    height: 1000rpx;
+    overflow: hidden;
+    top: 6640rpx;
+    z-index: 1;
+}
+.craft_05_gif image{
+  position: absolute;
+  top: 0rpx;
+  left: -88rpx;
+  width: 960rpx;
+  height: 870rpx;
+}

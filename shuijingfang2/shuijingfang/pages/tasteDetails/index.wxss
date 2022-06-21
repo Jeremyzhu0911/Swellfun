@@ -1,0 +1,115 @@
+/* pages/tasteDetails/index.wxss */
+.container{
+  width: 100vw;
+  padding: 0;
+  font-size: 0;
+}
+.swiper_box {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.5);
+}
+.swiper_box .swiper {
+  position: absolute;
+  top: 0rpx;
+  width: 750rpx;
+  height: 1624rpx;
+}
+.swiper_box .swiper .swiper-item {
+  width: 750rpx;
+  height: 1624rpx;
+  text-align: center;
+}
+.taste_gif{
+  position: absolute;
+  top: 560rpx;
+    left: -150rpx;
+    width: 960rpx;
+    height: 560rpx;
+  z-index: 1;
+}
+.taste_gif0{
+  height: 580rpx;
+}
+.taste_gif2{
+  width: 1200rpx;
+    height: 675rpx;
+    top: 480rpx;
+    left: -280rpx;
+}
+.taste_gif3{
+  left: 0rpx;
+}
+.taste_gif5{
+  width: 1200rpx;
+    height: 675rpx;
+    top: 480rpx;
+    left: -280rpx;
+}
+.taste_bg {
+  position: relative;
+  width: 750rpx;
+  height: 1624rpx;
+  z-index: 3;
+}
+@keyframes showHide{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.taste_txt{
+  position: absolute;
+  top: 1164rpx;
+  opacity: 0;
+  z-index: 5;
+  animation: showHide 2s forwards 1s;
+}
+.taste_txt1{
+  left: 288rpx;
+  width: 145rpx;
+  height: 180rpx;
+}
+.taste_txt2{
+  left: 249rpx;
+  width: 185rpx;
+  height: 232rpx;
+}
+.taste_txt3{
+  left: 288rpx;
+  width: 145rpx;
+  height: 154rpx;
+}
+.taste_txt4{
+  left: 286rpx;
+  width: 147rpx;
+  height: 258rpx;
+}
+.taste_txt5{
+  left: 287rpx;
+  width: 146rpx;
+  height: 154rpx;
+}
+.taste_txt6{
+  left: 287rpx;
+  width: 146rpx;
+  height: 154rpx;
+}
+.taste_left{
+  position: fixed;
+  width: 17rpx;
+  height: 30rpx;
+  top: 797rpx;
+  left: 35rpx;
+  z-index: 9999;
+}
+.taste_right{
+  position: fixed;
+  width: 17rpx;
+  height: 30rpx;
+  top: 797rpx;
+  left: 689rpx;
+  z-index: 9999;
+}

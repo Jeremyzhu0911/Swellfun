@@ -1,0 +1,2 @@
+<!--pages/loading/loading.wxml-->
+<canvas type="2d" id="myCanvas" bindtouchmove="cvsMove" style="width:{{windowWidth}}px;height:{{windowHeight}}px"></canvas>
