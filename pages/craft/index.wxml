@@ -1,0 +1,29 @@
+<!--pages/craft/index.wxml-->
+<view class="container" bindtouchcancel="onPageScroll">
+  <view bindtap="btn_return_tap" class="return">
+</view>
+<image class="craftIMG craft_01" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_01.jpg?v={{verison}}"></image>
+<image class="craftIMG craft_02" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_02.jpg?v={{verison}}"></image>
+
+<video id="video" class="craft_02_video1" autoplay="{{false}}" controls="{{true}}" direction="90" enable-auto-rotation="true" poster="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_02_video1.png" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_02_1.mp4?v={{verison}}"></video>
+<video id="video" class="craft_02_video2" autoplay="{{false}}" controls="{{true}}" direction="90"	enable-auto-rotation="true" poster="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_02_video2.png"  src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_02_2.mp4?v={{verison}}"></video>
+
+<image class="craftIMG craft_03" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_03.png?v={{verison}}"></image>
+
+<image class="craft_03_gif" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_03.gif?v={{verison}}"></image>
+
+<image class="craftIMG craft_04" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_04.jpg?v={{verison}}"></image>
+
+<image class="p_04_onT" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_04_onT.png?v={{verison}}"></image>
+<view class="craft_04_time {{timeAnimate}}">
+  <image class="p_04_time" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_04_time.png?v={{verison}}"></image>
+</view>
+
+<image class="craftIMG craft_05" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_05.png?v={{verison}}"></image>
+
+<view class="craft_05_gif">
+  <image class="craft_05_gif" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/craft/p_05.gif?v={{verison}}"></image>
+</view>
+
+</view>
+
