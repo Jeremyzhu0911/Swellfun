@@ -1,0 +1,20 @@
+<!--pages/tasteDetails/index.wxml-->
+<view class="container">
+  <view bindtap="btn_return_tap" class="return">
+  </view>
+  <view class="swiper_box">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{false}}" circular="{{circular}}" vertical="{{vertical}}" interval="{{interval}}" duration="{{duration}}" bindchange="bindchange" current="{{currentIndex}}">
+        <block wx:for="{{list}}" index="index" item="item" wx:key="index">
+          <swiper-item>
+            <view class="swiper-item">
+              <image class="taste_gif taste_gif{{index}}" src="{{src+item.gif}}?={{verison}}"></image>
+              <image class="taste_bg" src="{{src+item.url}}?={{verison}}"></image>
+              <image hidden="{{ !(currentIndex === index) }}" class="taste_txt taste_txt{{index+1}}" src="{{src+item.txt}}?={{verison}}"></image>
+            </view>
+          </swiper-item>
+        </block>
+    </swiper>
+  </view>
+  <image class="taste_left" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/taste/left.png?={{verison}}"></image>
+  <image class="taste_right" src="https://oss-shuzihuachanpinshouce.oss-cn-beijing.aliyuncs.com/jingtai/taste/right.png?={{verison}}"></image>
+</view>
